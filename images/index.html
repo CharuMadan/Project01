@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best online food delievery service in India | MyonlineMeals.com</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:1058px)" href="../css/phone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
@@ -15,10 +16,10 @@
             <img src="burger-gc9f635809_640.png" alt="MyonlineMeals.com">
         </div>
         <ul>
-            <li class="item"><a href="#">Home</a></li>
-            <li class="item"><a href="#">Services</a></li>
-            <li class="item"><a href="#">About us</a></li>
-            <li class="item"><a href="#">Contact us</a></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our clients</a></li>
+            <li class="item"><a href="#contact">Contact us</a></li>
 
         </ul>
     </nav>
@@ -31,7 +32,7 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
         <button class="btn">Order now</button>
     </section>
-    <section class="servicescontainer">
+    <section id="services-container">
         <h1 class="h-primary centre">
             Our services
         </h1>
@@ -56,7 +57,56 @@
             </div>
         </div>
     </section>
-
+    <section id="client-section">
+        <h1 class="h-primary centre">
+            Our clients
+        </h1>
+        <div id="clients">
+            <div class="client-items">
+                <img src="../images/Skype_logo.png" alt="our clients">
+            </div>
+            <div class="client-items">
+                <img src="../images/kisspng-windows-7-microsoft-logo.jpg" alt="our clients">
+            </div>
+            <div class="client-items">
+                <img src="../images/hp logo.png" alt="our clients">
+            </div>
+            <div class="client-items">
+                <img src="../images/Google__G__Logo.svg.webp" alt="our clients">
+            </div>
+            <div class="client-items">
+                <img src="../images/applelogo.jpg" alt="our clients">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary centre">Contact us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone no">Phone no: </label>
+                    <input type="phone" name="phone no" id="phone no" placeholder="Enter your phone no">
+                </div>
+                <div class="form-group">
+                    <label for="name">Message: </label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="centre">
+            Copyright &copy; www.MyOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
 </body>
 
 </html>
